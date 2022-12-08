@@ -1,0 +1,38 @@
+.footer{
+    background-color: #a82d49;
+    padding: 60px 0;
+    text-align: center;
+}
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+.footer .links li:not(:first-child) {
+    padding-left: 60px;
+}
+.footer ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+
+}
+.footer .social{
+    padding: 20px;
+}
+.footer .social li{
+    padding: 0 10px;
+}
+.footer ul li i{
+    color: white;
+    font-size: 22px;
+}
+.footer span{
+    display: block;
+    margin-top: 80px;
+    color: white;
+}

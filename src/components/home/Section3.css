@@ -1,0 +1,65 @@
+.hand{
+    background-color: transparent;
+    padding: 25px 0;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-family: "Tajawal";
+    margin-top: 50px;
+    text-align: left;
+}
+.hand img{
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+.hand .heigh{
+    margin-top: 70px;
+}
+.hand h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #49121d;
+    width: 70%;
+    line-height: 50px;
+}
+.hand p{
+    font-size: 18px;
+    margin: 15px 0;
+    color: #333;
+    line-height: 25px;
+    margin-top: 20px;
+    width: 70%;
+}
+.hand ul{
+    padding: 0;
+}
+.hand ul li{
+    list-style-type: square;
+    color: #333;
+    margin-top: 10px;
+}
+.hand button{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.2s ease;
+}
+.hand button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+.hand button:hover a{
+color: #7c0f28;
+}
+.hand button:hover{
+    background-color: white;
+}

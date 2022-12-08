@@ -1,0 +1,55 @@
+.watch{
+    background: url("../../assets/watch.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    font-family: "Tajawal";
+}
+.watch .container{
+    width: 80%;
+}
+.watch .row{
+    margin: 50px 0;
+}
+.watch h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #49121d;
+    width: 100%;
+    line-height: 50px;
+}
+.watch p{
+    font-size: 18px;
+    margin: 15px 0;
+    color: #333;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.watch a{
+    color: #49121d;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    position: relative;
+    transition: 0.2s ease;
+}
+.watch a:hover{
+    color: #7c0f28;
+}
+.watch a::before{
+    content: "";
+    position: absolute;
+    border:8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #333 ;
+    left: -15px;
+    top: 6px;
+    z-index: 1;
+}
+.watch a:hover::before{
+    border-color: transparent transparent transparent #7c0f28 ;
+}

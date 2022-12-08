@@ -1,0 +1,76 @@
+.foods{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: "tajawal";
+    width: 100%;
+    overflow: hidden;
+}
+.foods h2{
+    text-align: center;
+    font-size: 40px;
+    color: #49121d;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.foods p{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 70px;
+    line-height: 1.7;
+}
+.foods .fot{
+    margin-bottom: 50px;
+}
+.foods img{
+    width: 390px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.foods .title{
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.foods .time{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.foods .price{
+    font-size: 25px;
+    padding: 15px 10px;
+    font-weight: bold;
+    color: #7c0f28;
+    
+}
+.foods .price span{
+    color: #777;
+    text-decoration: line-through;
+}
+.foods hr{
+    width: 95%;
+} 
+.foods button{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.2s ease;
+    margin-left: 10px;
+}
+.foods button a{
+    display: block;
+    text-decoration: none;
+    color: white !important;
+    font-size: 19px;
+    font-weight: bold;
+}
+.foods button:hover a{
+color: #7c0f28 !important;
+}
+.foods button:hover{
+    background-color: white;
+}

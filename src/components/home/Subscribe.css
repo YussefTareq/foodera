@@ -1,0 +1,52 @@
+.subscribe{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-family: "Tajawal";
+    overflow: hidden;
+}
+.subscribe h2{
+    text-align: center;
+    font-size: 40px;
+}
+.subscribe p{
+    text-align: center;
+    color: #222;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.subscribe input{
+    margin-left: 280px;
+    width: 70%;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.subscribe input:focus{
+    outline: none;
+}
+.subscribe button{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    transition: 0.2s ease;
+    margin-left: 90px;
+}
+
+.subscribe button a{
+    display: block;
+    text-decoration: none;
+    color: white !important;
+    font-size: 19px;
+    font-weight: bold;
+}
+.subscribe button:hover a{
+color: #a82d49 !important;
+}
+.subscribe button:hover{
+    background-color: transparent;
+}

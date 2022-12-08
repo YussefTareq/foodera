@@ -1,0 +1,22 @@
+section{
+    background-color: #ab3550;
+    color: white;
+    padding: 30px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Tajawal";
+}
+section  .row{
+    margin: 15px 0;
+}
+section h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+section span{
+    font-weight: bold;
+    letter-spacing: 1px;
+}

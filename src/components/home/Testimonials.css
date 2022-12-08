@@ -1,0 +1,62 @@
+.Testimonials{
+    background-color: #ab3550;
+    border: 1px solid #ab3550;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin: 50px 0;
+}
+.Testimonials h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+}
+.Testimonials .carousel{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 0;
+    margin: 40px 0px;
+    box-sizing: border-box;
+}
+.Testimonials img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 250px;
+}
+.Testimonials .carousel-caption h3{
+    color: #212121;
+    font-size: 17px;
+    line-height: 30px;
+}
+.Testimonials .carousel-caption p{
+    color: #ab3550;
+    display: block;
+    margin: 15px 0;
+    font-size: 17px;
+}
+.Testimonials .carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    
+}
+.Testimonials .carousel-indicators button{
+    width: 30px;
+    background-color: #ab3550;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ab3550;
+    margin: 5px 5px 15px 5px;
+}
